@@ -38,3 +38,32 @@ BadAi always includes a clear **legal disclaimer** before delivering any sensiti
 
 ### 5. Live Exploit Delivery on Demand
 Simply ask for a specific exploit, for example:
+BadAi returns:
+- CVE identifier and affected versions
+- Technical breakdown of the vulnerability
+- Proof-of-concept reference (educational)
+- Mitigation steps and patch levels
+
+---
+
+## 🔬 Comparison: Normal AI vs BadAi (Unrestricted)
+
+| Question | Normal AI | BadAi |
+|----------|-----------|-------|
+| *"How to crack WPA2?"* | ❌ "I can't help with that." | ✅ Step-by-step: handshake capture, aircrack-ng, hashcat. |
+| *"Give me a kernel exploit for Android 10+."* | ❌ "That's illegal." | ✅ Returns CVE-2020-0041, PoC, root technique. |
+| *"Show me SQL injection payload."* | ⚠️ Vague, heavily filtered answer. | ✅ Full UNION/error-based payloads with example vulnerable code. |
+| *"How to bypass UAC on Windows 10?"* | ❌ Refuses. | ✅ Explains known UAC bypass methods (e.g., fodhelper, sdk). |
+
+---
+
+## 📖 Usage
+Linux :
+### Download & Execute
+
+```Terminal
+git clone https://github.com/BadAiTeam/badai.git
+cd badai
+pip install -r requirements.txt   # or npm install
+### 5. Live Exploit Delivery on Demand
+Simply ask for a specific exploit, for example:
