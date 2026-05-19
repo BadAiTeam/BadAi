@@ -1,4 +1,4 @@
-# 🧠 BAD.AI — Unrestricted AI Red Team Assistant
+# 🧠 BAD.AI — Unrestricted AI Assistant
 
 
 > **SYSTEM:** `UNRESTRICTED` | **PROTOCOL:** `ACTIVE`  
